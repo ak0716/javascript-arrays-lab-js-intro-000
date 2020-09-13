@@ -6,7 +6,7 @@ destructivelyAppendKitten = () => {
   return kittens;
 }
 
-destructivelyPrependKitten = () => {
+destructivelyPrependKitten = (name) => {
   kittens.unshift('Bob');
   return kittens;
 }
