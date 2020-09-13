@@ -25,3 +25,8 @@ function appendKitten () {
   let newKittens = kittens.concat('Broom')
   return newKittens
 }
+
+function PrependKitten () {
+  let newKittens = kittens.unshift('Arnold')
+  return newKittens
+}
