@@ -5,3 +5,8 @@ destructivelyAppendKitten = () => {
   kittens.push('Ralph');
   return kittens;
 }
+
+destructivelyPrependKitten = () => {
+  kittens.unshift('Bob');
+  return kittens;
+}
