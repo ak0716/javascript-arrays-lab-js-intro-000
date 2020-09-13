@@ -10,3 +10,5 @@ destructivelyPrependKitten = (kittens) => {
   kittens.unshift("Bob")
   return kittens
 }
+
+console.log(kittens);
