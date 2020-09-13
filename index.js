@@ -26,7 +26,7 @@ function appendKitten () {
   return newKittens
 }
 
-function PrependKitten () {
+function prependKitten () {
   let newKittens = kittens.unshift('Arnold')
   return newKittens
 }
