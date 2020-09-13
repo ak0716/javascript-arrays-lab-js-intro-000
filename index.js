@@ -13,4 +13,4 @@ destructivelyPrependKitten = () => {
   return kittens;
 }
 
-destructivelyPrependKitten();
+destructivelyPrependKitten('Bob');
