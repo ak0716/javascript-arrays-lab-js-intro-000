@@ -29,5 +29,9 @@ function appendKitten () {
 function prependKitten () {
   let newKittens = ['Arnold'].concat(kittens)
   return newKittens
+}
 
+function removeLastKitten () {
+  let newKittens = kittens.slice(0, 2)
+  return newKittens
 }
