@@ -12,3 +12,5 @@ destructivelyPrependKitten = () => {
   kittens.unshift('Bob');
   return kittens;
 }
+
+destructivelyPrependKitten();
