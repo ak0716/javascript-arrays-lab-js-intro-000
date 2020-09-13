@@ -8,8 +8,8 @@ destructivelyAppendKitten = () => {
 
 destructivelyAppendKitten();
 
-destructivelyPrependKitten = () => {
-  kittens.unshift('Bob');
+destructivelyPrependKitten = (name) => {
+  kittens.unshift(name);
   return kittens;
 }
 
